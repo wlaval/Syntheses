@@ -57,7 +57,7 @@ $$\begin{array}{r l}
 \fv{A}\cdot\fv{B} =&(A_1 \fv{ê}_1+A_2\fv{ê}_2+A_3\fv{ê}_3)\cdot(B_1\fv{ê}_1+B_2\fv{ê}_2+B_3\fv{ê}_3)\\
  =&A_1B_1 + A_2B_2+A_3B_3\\
 \fv{A}\wedge\fv{B}=&(A_1 \fv{ê}_1+A_2\fv{ê}_2+A_3\fv{ê}_3)\wedge(B_1\fv{ê}_1+B_2\fv{ê}_2+B_3\fv{ê}_3)\\
- =&(A_2B_3-A_3B_2)\fv{ê}_1+(A_3B1-A1B_3)\fv{ê}_2+(A_1B_2-A_2B_1)\fv{ê}_3\\
+ =&(A_2B_3-A_3B_2)\fv{ê}_1+(A_3B_1-A_1B_3)\fv{ê}_2+(A_1B_2-A_2B_1)\fv{ê}_3\\
 \end{array}$$
 
 \section{Notation indicielle et convention de sommation}
@@ -126,7 +126,7 @@ A_3\\
 \section{Théorie des matrices}
 \subsection{Quelques propriétés importantes (rappels): }
 \begin{itemize}
-\item Un matrice carrée \fv{A} est dite \emph{normale} si $\fv{A}\fv{A}^T=\fv{A}^T\fv{A}$. Elle est \emph{orthogonale} si de plus $\fv{A}^T\fv{A}=I$ ($\fv{A}=\fv{A}^{-1})$
+\item Un matrice carrée \fv{A} est dite \emph{normale} si $\fv{A}\fv{A}^T=\fv{A}^T\fv{A}$. Elle est \emph{orthogonale} si de plus $\fv{A}^T\fv{A}=I$ ($\fv{A}^T=\fv{A}^{-1})$
 \item La multiplication de matrices est associative
 \item S'il existe, l'inverse d'une matrice \fv{A} est unique. Si \fv{A} n'est pas inversible, elle est dite \emph{singulière}.
 \item $\det(\fv{AB})=\det\fv{A}\cdot\det\fv{B}$
@@ -241,7 +241,7 @@ $$\left\{\begin{array}{c}
 Considérons une région $\Omega$ de $\R^3$ délimitée par la surface fermée $\partial \Omega$.
 Soient $\dif s$ un élément différentiel de surface,
 \fv{\^{n}} la normale unitaire sortante et $\dif v$ un élément de volume infinitésimal de $\Omega$.
-$\sp{\fv{A}}{\fv{\^n}} \dif s$ est le \emph{flux} de \fv{A} à travers la surface infinitésimal $\dif s$.
+$\sp{\fv{A}}{\fv{\^n}} \dif s$ est le \emph{flux} de \fv{A} à travers la surface infinitésimale $\dif s$.
 Son intégrale est le flux total au travers de la frontière $\Delta s=\partial\Omega$.
 
 \paragraph*{Théorème du gradient:} $$\int_{\Omega}\nabla\phi \dif v=\oint_{\partial\Omega}\fv{\^n}\,\phi\dif s=\oint_{\partial\Omega}\phi\dif \fv{s}$$
