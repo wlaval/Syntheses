@@ -27,7 +27,7 @@
 {Raphaël Jungers}[
 \paragraph{Remarque} Ce document reprend les notes prises
 au cours de l'année 2018-2019.
-Lors de cette année, le Jean-Charles Delvenne a été supléé par Raphaël Jungers.
+Lors de cette année, le professeur Jean-Charles Delvenne a été supléé par le professeur Raphaël Jungers.
 Il est donc possible que certaines parties soient
 absentes ou incomplètes (ou superflues)
 par rapport aux années précédentes.
@@ -1238,7 +1238,7 @@ est un arbre sous-tendant de poids minimum.}
 	Si $G$ et $H$ sont des graphes avec un ensemble de n\oe{}uds $V$,
 	alors la \emph{différence symétrique} $G \triangle H$
 	est le graphe avec $V$ pour ensemble de n\oe{}uds
-	dont les arêtes sont celles qui appartiennet soit à $G$, soit à $H$,
+	dont les arêtes sont celles qui appartiennent soit à $G$, soit à $H$,
 	mais pas aux deux.
 	On utilise également cette définition pour les ensembles d'arêtes;
 	en particulier, si $M$ et $M'$ sont des couplages,
@@ -1436,7 +1436,7 @@ le Théorème de Hall est le Théorème du Mariage.
 	car $N_H(S)$ couvre toutes les arêtes incidentes à $S$
 	qui ne sont pas couvertes par $T$.
 
-	La minimalitee de $Q$ nous donne donc la Condition de Hall dans $H$,
+	La minimalité de $Q$ nous donne donc la Condition de Hall dans $H$,
 	et donc $H$ a un couplage qui sature $R$.
 	En appliquant le même argument à $H'$,
 	on trouve un couplage qui sature $T$.
@@ -1510,7 +1510,7 @@ le long du chemin $M$-augmenté $C$ qui a été trouvé.
 
 \begin{myexem}[Graphes de Harary]
 	Étant donné $k < n$,
-	on place $n$ n\oe{}uds autout d'un cercle, espacés uniformément.
+	on place $n$ n\oe{}uds autour d'un cercle, espacés uniformément.
 	On suppose $k$ pair
 	(pour $k$ impair, la construction est plus difficile),
 	et on forme $H_{k, n}$ en rendant chaque n\oe{}ud adjacent
@@ -1855,7 +1855,7 @@ c'est-à-dire trouver le flot dont la valeur est maximale.
 	Dans le problème max-flow,
 	le flot nul ($f(e) = 0$ pour tout $e$)
 	est toujours un flot faisable et nous donne un endroit où commencer.
-	Étant donnés un flot faisable,
+	Étant donné un flot faisable,
 	on applique l'Algorithme de Ford-Fulkerson.
 	Celui-ci ajoute itérativement des n\oe{}uds à $S$,
 	et termine lorsque $t \in R$ ou $R = S$.
@@ -1863,7 +1863,7 @@ c'est-à-dire trouver le flot dont la valeur est maximale.
 	Dans le premier cas, on a un chemin $f$-augmentant
 	et on augmente la valeur du flot.
 	On répète alors l'algorithme.
-	Lorsque les capacités sont rationelles,
+	Lorsque les capacités sont rationnelles,
 	toute augmentation augmente le flot d'un multiple de $1/a$,
 	où $a$ est le plus petit commun multiple des dénominateurs,
 	donc après un nombre fini d'augmentations,
@@ -1929,7 +1929,7 @@ c'est-à-dire trouver le flot dont la valeur est maximale.
 
 \section{Coloriage de graphes}
 \subsection{Coloriage de n\oe{}uds et bornes supérieures}
-\subsubsection{Définitions et examples}
+\subsubsection{Définitions et exemples}
 \begin{mydef}
 	Un \emph{$k$-coloriage} d'un graphe $G$
 	est une annotation $f \colon V(G) \to S$,
@@ -1986,7 +1986,7 @@ qui ne soit pas encore utilisée pour ses voisins $v_j$ avec $j < i$.
 \end{proof}
 
 Une \emph{représentation intervalle} d'un graphe est une famille d'intervalles
-assignées aux sommets telle que les sommets soient adjacents si et seulement si
+assignés aux sommets telle que les sommets soient adjacents si et seulement si
 les intervalles correspondants s'intersectent.
 Un graphe ayant une telle représentation est un \emph{graphe intervalle}.
 
@@ -2285,7 +2285,7 @@ On a donc $\chi(G) = \min \{\,k: \chi(G; k) > 0\,\}$.
 	ceci donne $2e = \sum f_i \ge 3f$.
 	Substituant ceci dans $n - e + f = 2$ donne $e \le 3n - 6$.
 
-	Lorsque $G$ ne contient pas de trinagles,
+	Lorsque $G$ ne contient pas de triangle,
 	les faces ont une longueur d'au moins $4$.
 	Dans ce cas,
 	$2e = \sum f_i \ge 4f$, et on obtient $e \le 2n - 4$.
@@ -2374,7 +2374,7 @@ On note que les conditions ci-dessus sont nécessaires.
 	Si $G$ n'est pas $5$-coloriable,
 	alors $f$ assigne chaque couleur à un voisin de $v$, et donc $d(v) = 5$.
 	Soient $v_1, v_2, v_3, v_4, v_5$ les voisins de $v$
-	dans l'ordre horloger autour de $v$.
+	dans le sens horlogique autour de $v$.
 	On nomme les couleurs de sorte à ce que $f(v_i) = i$.
 
 	Soit $G_{i,j}$ le sous-graphe de $G - v$
@@ -2664,7 +2664,7 @@ donne un algorithme polynomial pour A et donc pour tout NP).
 Si B est aussi dans NP,
 alors on dit que B est NP-complet par \emph{réduction à partir de} ou
 \emph{par transformation de} A.
-Ceci est vrai car les polynomes sont fermés sous multiplication
+Ceci est vrai car les polynômes sont fermés sous multiplication
 et sous composition.
 
 \begin{mytheo}[Cook, 1971]
